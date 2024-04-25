@@ -1,0 +1,59 @@
+@keyframes shakeRightSword {
+  0% {
+    rotate: 0;
+  }
+  44% {
+    rotate: 0;
+  }
+  45% {
+    rotate: -45deg;
+  }
+  48% {
+    rotate: 60deg;
+  }
+  51% {
+    rotate: -45deg;
+  }
+  54% {
+    rotate: 45deg;
+  }
+  57% {
+    rotate: 5deg;
+  }
+  58% {
+    rotate: 0;
+  }
+  100% {
+    rotate: 0;
+  }
+}
+
+@keyframes shakeLeftSword {
+  0% {
+    rotate: 270deg;
+  }
+  44% {
+    rotate: 315deg;
+  }
+  45% {
+    rotate: 225deg;
+  }
+  48% {
+    rotate: 330deg;
+  }
+  51% {
+    rotate: 225deg;
+  }
+  54% {
+    rotate: 315deg;
+  }
+  57% {
+    rotate: 275deg;
+  }
+  58% {
+    rotate: 270deg;
+  }
+  100% {
+    rotate: 270deg;
+  }
+}

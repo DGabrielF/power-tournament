@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="./src/styles/global.css">
+
+  <title>Torneio do Poder</title>
+</head>
+<body>
+  <header>
+    <img src="./src/assets/icons/sword.svg" alt="sword" style="animation: shakeRightSword 4s infinite;">
+    <img src="./src/assets/icons/sword.svg" alt="sword" style="animation: shakeRightSword 4s infinite;">
+    <h1>Torneio do Poder</h1>
+    <img src="./src/assets/icons/sword.svg" alt="sword" style="rotate: 270deg; animation: shakeLeftSword 4s infinite;">
+    <img src="./src/assets/icons/sword.svg" alt="sword" style="rotate: 270deg; animation: shakeLeftSword 4s infinite;">
+  </header>
+  <main>
+    <div class="background">
+      <img src="./src/assets/images/tales-of-crestoria-arena.png" alt="">
+    </div>
+    <section class="champions">
+      <h2>Guerreiros</h2>
+      <ul class="champions_list"></ul>
+    </section>
+    <section class="champions_battle">
+      <div id= "anchor" class="battle_animation hide">
+        <img src="./src/assets/icons/sword.svg" alt="sword" style="animation: shakeRightSword 4s infinite;">
+        <img src="./src/assets/icons/sword.svg" alt="sword" style="rotate: 270deg; animation: shakeLeftSword 4s infinite;">
+      </div>
+    </section>
+  </main>
+  <script type="module" src="./src/scripts/main.js"></script>
+</body>
+</html>
